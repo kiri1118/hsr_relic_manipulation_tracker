@@ -5,7 +5,7 @@ usage = '''
     Here are the usage cases for the script:
 
     py main.py -add {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four} {key_stat}
-    py main.py -remove {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four} {key_stat}
+    py main.py -remove {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four}
     py main.py -search {prev_updated_stat} {shifted_by}
     py main.py -searchall
 '''

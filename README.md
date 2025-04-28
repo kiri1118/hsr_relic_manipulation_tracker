@@ -3,6 +3,7 @@ This is a complementary tool for upgrading relics in HSR. It helps keep track of
 
 # Script Usage
 This adds the relic of interest into the SQLite DB:
+
     py main.py -add {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four} {key_stat}
 
 This removes the relic from SQLite DB as it is no longer of interest:

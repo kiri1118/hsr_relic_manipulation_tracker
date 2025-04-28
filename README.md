@@ -1,7 +1,7 @@
 # hsr_relic_manipulation_tracker
 This is a complementary tool for upgrading relics in HSR. It helps keep track of relics that are potentially interesting to upgrade with the relic manipulation method. It is NOT usable without understanding the idea behind relic manipulation by pattern.
 
-# Usage
+# SCript Usage
 py main.py -add {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four} {key_stat}
 
 py main.py -remove {relic_set} {relic_part} {main_stat} {stat_one} {stat_two} {stat_three} {stat_four} {key_stat}
@@ -10,7 +10,7 @@ py main.py -search {prev_updated_stat} {shifted_by}
 
 py main.py -searchall
 
-## Arguments
+# Input Args
 **relic_set**: Any name of your choice
 
 **relic_part**: Any name of your choice

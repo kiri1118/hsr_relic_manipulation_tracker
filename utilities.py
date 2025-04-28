@@ -5,9 +5,9 @@ import pandas as pd
 
 class DBConnect:
     def __init__(self):
-        have_db = os.path.exists("relics.db")
+        have_db = os.path.exists("./data/relics.db")
 
-        self.connection = sqlite3.connect("relics.db")
+        self.connection = sqlite3.connect("./data/relics.db")
         self.cursor = self.connection.cursor()
 
         if not have_db:
@@ -65,7 +65,7 @@ def calc_shift(start, shift):
     return after_shift
 
 def search_csv(important_stat):
-    df = pd.read_csv("./relics.csv")
+    df = pd.read_csv("./data/relics.csv")
     result = df[df[important_stat] == 1]
     return result.iloc[:, :-4]
 

@@ -34,10 +34,10 @@ else:
             if len(args) < 3:
                 print(usage)
                 sys.exit(1)
-            db = DBConnect()
             start, shift = int(args[1]), int(args[2])
             key_stat = calc_shift(start, shift)
             column_names = ["key_one", "key_two", "key_three", "key_four"]
+            db = DBConnect()
             db.search_db(column_names[key_stat - 1])
             
             # print(search_csv(column_names[key_stat - 1]))
